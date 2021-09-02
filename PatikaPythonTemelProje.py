@@ -7,7 +7,7 @@
 
 
 
-ornekListe = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+ornekListe1 = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 duzenlenmisListe = []
 
 def flattenListe(liste):
@@ -19,7 +19,7 @@ def flattenListe(liste):
             duzenlenmisListe.append(eleman)
     return duzenlenmisListe
 
-flattenListe(ornekListe)
+flattenListe(ornekListe1)
 
 
 # # Ornek 2
@@ -28,7 +28,7 @@ flattenListe(ornekListe)
 
 
 
-ornekListe = [[1, 2], [3, 4], [5, 6, 7]]
+ornekListe2 = [[1, 2], [3, 4], [5, 6, 7]]
 
 def reverseListe(liste):
     
@@ -38,5 +38,5 @@ def reverseListe(liste):
     liste.reverse()
     return liste
 
-reverseListe(ornekListe)
+reverseListe(ornekListe2)
 
