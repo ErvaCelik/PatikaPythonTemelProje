@@ -1,12 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# # Ornek 1
-
-# In[19]:
-
-
-
+# ORNEK 1
 ornekListe1 = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 duzenlenmisListe = []
 
@@ -22,12 +15,9 @@ def flattenListe(liste):
 flattenListe(ornekListe1)
 
 
-# # Ornek 2
-
-# In[20]:
 
 
-
+# ORNEK 2
 ornekListe2 = [[1, 2], [3, 4], [5, 6, 7]]
 
 def reverseListe(liste):
